@@ -52,7 +52,11 @@ Approach:
 
 # Activity log 
 
-Click [here]:
+Activities:
+ * Week 1 : 35 hours research
+ * Week 2 : 20 hours research and 20 hours testing templates in CloudFormation
+ * Week 3 : 10 hours testing final template in Cloudformation and 25 hours GitHub documentation
+
  
  
          
