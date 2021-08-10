@@ -15,7 +15,7 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 # Architecture Overview
 
-![template1-designer (3)](https://user-images.githubusercontent.com/84905032/128716475-714f2179-1019-4019-bc21-9dfb4faaea5f.png)
+![template1-designer (3)](https://github.com/Team-Cloud-Tigers/DevOps-Sentia-Project/blob/70859aa28b3b0b10c407dc74f48201f5496d9c25/Diagram/FinalTmpltPRODUCTION.png)
 
 # Topics
 
