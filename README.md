@@ -20,10 +20,10 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 # Topics
 
  * References
-   Websites,videos
+    Websites,videos
 
  * Infrastructure and environments
-   General idea -> our idea   
+    General idea -> our idea   
  
  * Goals
 
