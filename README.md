@@ -22,6 +22,10 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
  * Bullet list
  * Nested bullet
  * Sub-nested bullet
+ 
+ # Activity log
+ Click here
+ 
          
 
 
