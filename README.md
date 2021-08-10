@@ -24,8 +24,5 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
  * Sub-nested bullet
           * Bullet list item 2
 
-Present infrastructure 
-
-Proposed infrastructure
 
 
