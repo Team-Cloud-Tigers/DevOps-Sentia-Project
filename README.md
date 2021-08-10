@@ -21,10 +21,7 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
  * Infrastructure and environments
     
-# Activity log 
-
 References
-
 
 Goals
 
