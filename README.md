@@ -38,7 +38,7 @@ accounting
 
 * Approach
 
-# Topics 
+# Activity log 
 
 Click [here]:
  
