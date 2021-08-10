@@ -46,24 +46,9 @@ Resources:
           Value: some-sftp-servver
     Metadata:
       'AWS::CloudFormation::Designer':
-        id: 66cd187d-c9cc-4d61-9086-c08bb6095a56
+        id: b7896d89-a52c-4492-97b0-6db432c4d270
     DependsOn:
-      - SFTPServerDNSRecord
-  SFTPServerDNSRecord:
-    Type: 'AWS::Route53::RecordSet'
-    Properties:
-      Name: !Ref SFTPHostnameParam
-      HostedZoneId: !Ref HostedZoneIdParam
-      Type: CNAME
-      Comment: SFTP Transfer custom hostname
-      TTL: 300
-      ResourceRecords:
-        - !Sub '${SFTPServer.ServerId}.server.transfer.${AWS::Region}.amazonaws.com'
-    Metadata:
-      'AWS::CloudFormation::Designer':
-        id: 36c67052-ac66-4543-8b82-96fe5a7b120c
-    DependsOn:
-      - SFTPUserRole
+      - SFTPServerS3Bucket
   SFTPServerS3Bucket:
     Type: 'AWS::S3::Bucket'
     DeletionPolicy: Retain
@@ -79,55 +64,7 @@ Resources:
           Value: some-sftp-servver
     Metadata:
       'AWS::CloudFormation::Designer':
-        id: 32293a27-8f60-4dd4-9a40-66c3a2e2cb1d
-  SFTPUserRole:
-    Type: 'AWS::IAM::Role'
-    Properties:
-      AssumeRolePolicyDocument:
-        Version: 2012-10-17
-        Statement:
-          - Effect: Allow
-            Principal:
-              Service:
-                - transfer.amazonaws.com
-            Action:
-              - 'sts:AssumeRole'
-      Path: /
-      Policies:
-        - PolicyName: S3FullAccess
-          PolicyDocument:
-            Version: 2012-10-17
-            Statement:
-              - Effect: Allow
-                Action:
-                  - 's3:ListAllMyBuckets'
-                  - 's3:GetBucketLocation'
-                Resource: '*'
-        - PolicyName: AllowListingOfUserFolder
-          PolicyDocument:
-            Version: 2012-10-17
-            Statement:
-              - Effect: Allow
-                Action:
-                  - 's3:ListBucket'
-                Resource: !GetAtt SFTPServerS3Bucket.Arn
-        - PolicyName: HomeDirObjectAccess
-          PolicyDocument:
-            Version: 2012-10-17
-            Statement:
-              - Effect: Allow
-                Action:
-                  - 's3:PutObject'
-                  - 's3:GetObject'
-                  - 's3:GetObjectVersion'
-                  - 's3:DeleteObject'
-                  - 's3:DeleteObjectVersion'
-                Resource: !Sub '${SFTPServerS3Bucket.Arn}/*'
-    Metadata:
-      'AWS::CloudFormation::Designer':
-        id: dd0b8090-268a-4296-a134-b6735a55fe93
-    DependsOn:
-      - SFTPServerS3Bucket
+        id: e7742593-5b33-4d64-9085-50910cab4dbf
   VPC:
     Type: 'AWS::EC2::VPC'
     Properties:
@@ -306,14 +243,14 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 60
-        'y': 1020
+        x: 510
+        'y': 970
       z: 1
       embeds: []
     71685841-b169-4e31-9ae2-a232e21e2926:
       size:
         width: 960
-        height: 870
+        height: 830
       position:
         x: 60
         'y': 90
@@ -327,7 +264,7 @@ Metadata:
         - 3a99c74e-6fa0-430f-bcbd-a4b01360e60d
         - 2cfd2f99-5782-471d-8ca5-3f086d52590f
         - 1856b373-1501-4506-9469-f2cdeafe6c10
-        - 32293a27-8f60-4dd4-9a40-66c3a2e2cb1d
+        - e7742593-5b33-4d64-9085-50910cab4dbf
     67b31e6a-3428-42b8-9016-8dbe27c94926:
       size:
         width: 150
@@ -476,64 +413,30 @@ Metadata:
       embeds: []
       dependson:
         - 67b31e6a-3428-42b8-9016-8dbe27c94926
-    32293a27-8f60-4dd4-9a40-66c3a2e2cb1d:
+    e7742593-5b33-4d64-9085-50910cab4dbf:
       size:
         width: 60
         height: 60
       position:
-        x: 920
-        'y': 210
+        x: 820
+        'y': 830
       z: 2
       parent: 71685841-b169-4e31-9ae2-a232e21e2926
       embeds: []
-    dd0b8090-268a-4296-a134-b6735a55fe93:
+    b7896d89-a52c-4492-97b0-6db432c4d270:
       size:
         width: 60
         height: 60
       position:
-        x: 1050
-        'y': 210
+        x: 990
+        'y': 830
       z: 1
       embeds: []
       dependson:
-        - 32293a27-8f60-4dd4-9a40-66c3a2e2cb1d
-    36c67052-ac66-4543-8b82-96fe5a7b120c:
-      size:
-        width: 60
-        height: 60
-      position:
-        x: 1050
-        'y': 330
-      z: 1
-      embeds: []
-      dependson:
-        - dd0b8090-268a-4296-a134-b6735a55fe93
-    66cd187d-c9cc-4d61-9086-c08bb6095a56:
-      size:
-        width: 60
-        height: 60
-      position:
-        x: 1050
-        'y': 450
-      z: 1
-      embeds: []
-      dependson:
-        - 36c67052-ac66-4543-8b82-96fe5a7b120c
-    7dc23dde-0030-44ab-81f3-88b8b65f5ed4:
+        - e7742593-5b33-4d64-9085-50910cab4dbf
+    953dae3f-852b-4e1a-8b0b-70d4cecacdde:
       source:
-        id: 66cd187d-c9cc-4d61-9086-c08bb6095a56
+        id: b7896d89-a52c-4492-97b0-6db432c4d270
       target:
-        id: 36c67052-ac66-4543-8b82-96fe5a7b120c
+        id: e7742593-5b33-4d64-9085-50910cab4dbf
       z: 11
-    e3b6987c-bfd8-4ba1-a006-2ec5b1243897:
-      source:
-        id: 36c67052-ac66-4543-8b82-96fe5a7b120c
-      target:
-        id: dd0b8090-268a-4296-a134-b6735a55fe93
-      z: 12
-    6c38932d-b351-4f33-a49c-85f5bb91e758:
-      source:
-        id: dd0b8090-268a-4296-a134-b6735a55fe93
-      target:
-        id: 32293a27-8f60-4dd4-9a40-66c3a2e2cb1d
-      z: 13
