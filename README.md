@@ -20,9 +20,10 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 # Topics
 
  * Infrastructure and environments
-  
-  
+    
 # Activity log 
+  
+  * Click [here]:
  
  
          
