@@ -22,8 +22,28 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
  * Infrastructure and environments
     
 # Activity log 
-  
-  * Click [here]:
+
+References
+
+
+Goals
+
+Provide environment separation
+Provide basic security sandbox per environment
+Integration for human user management
+Allow sharing resources across environments where required
+
+Topics to consider
+
+security
+CI/CD
+accounting
+
+Approach
+
+# Topics 
+
+Click [here]:
  
  
          
