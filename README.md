@@ -19,11 +19,11 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 # Topics
 
-References
+References:
  
     Websites
 
-Infrastructure and environments
+Infrastructure and environments:
  
  To meet the client requirements we choose the following infrastructure:
  
@@ -35,7 +35,7 @@ Infrastructure and environments
  * the customer has 3 environments, namely Test, Acceptance and Production.
 
       
-Goals
+Goals:
 
 The solution needs to be: 
 - (must) scalable and flexible.
@@ -43,12 +43,12 @@ The solution needs to be:
 - (nice to have) modernized during this migration in terms of infrastructure technologies used.
 
 
-Topics to consider
+Topics to consider:
   
 - The Learning Coach is making one change to the above assignment: please use a DynamoDB table instead of an ElasticSearch cluster.
 - Cost optimization should be applied when necessary, even if a few application related modifications are necessary. Environment isolation is important, but some shared services would be acceptable if they result in major cost reduction.
 
-Approach
+Approach:
 
 # Activity log 
 
