@@ -24,7 +24,7 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
     Websites,videos
 
  * Infrastructure and environments
- * 
+ 
     General idea -> our idea   
  
  * Goals
