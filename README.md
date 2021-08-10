@@ -20,23 +20,23 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 # Topics
 
  * Infrastructure and environments
-    
-References
+   
+ * References
 
-Goals
+ * Goals
 
 Provide environment separation
 Provide basic security sandbox per environment
 Integration for human user management
 Allow sharing resources across environments where required
 
-Topics to consider
+ * Topics to consider
 
 security
 CI/CD
 accounting
 
-Approach
+* Approach
 
 # Topics 
 
