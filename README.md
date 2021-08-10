@@ -19,12 +19,9 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 # Topics
 
- * Bullet list
- * Nested bullet
- * Sub-nested bullet
+ * IaC Project
+  * Activity log 
  
- # Activity log
- Click [here]
  
          
 
