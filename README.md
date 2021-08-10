@@ -46,6 +46,7 @@ The solution needs to be:
 Topics to consider:
   
 - The Learning Coach is making one change to the above assignment: please use a DynamoDB table instead of an ElasticSearch cluster.
+- For AWS, write your IaC using: AWS CDK (preferred), or alternatively with AWS CloudFormation.
 - Cost optimization should be applied when necessary, even if a few application related modifications are necessary. Environment isolation is important, but some shared services would be acceptable if they result in major cost reduction.
 
 Approach:
