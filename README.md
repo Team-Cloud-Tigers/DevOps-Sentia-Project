@@ -20,8 +20,8 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 # Topics
 
  * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
+ * Nested bullet
+ * Sub-nested bullet
           * Bullet list item 2
 
 Present infrastructure 
