@@ -20,6 +20,7 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 # Topics
 
 Present infrastructure 
+
 Proposed infrastructure
 
 
