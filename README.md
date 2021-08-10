@@ -19,10 +19,12 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 # Topics
 
- * Infrastructure and environments
-   
  * References
+   Websites,videos
 
+ * Infrastructure and environments
+   General idea -> our idea   
+ 
  * Goals
 
 Provide environment separation
