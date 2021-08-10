@@ -19,8 +19,10 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 # Topics
 
- * IaC Project
-  * Activity log 
+ * Infrastructure and environments
+  
+  
+# Activity log 
  
  
          
