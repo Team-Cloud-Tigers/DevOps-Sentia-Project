@@ -101,27 +101,6 @@ Approach:
 Team worked together on assignment 
 Assumptions and decisions were discussed and reviewed on a daily basis.
 
-# Activity log 
-
-Activities:
- * Week 1 : 35 hours research
- * Week 2 : 20 hours research and 20 hours testing templates in CloudFormation
- * Week 3 : 10 hours testing final template in Cloudformation and 25 hours GitHub documentation
-
-26th of July:
-- The project details were made clear and our team started with doing research. Our first week mostly consisted of research and experimenting.
-
-2nd of August:
-- We made a draft of the services we wanted to use for the infrastructure and put them in a template.
-
-3rd of August:
-- We experimented more with the services and researched the synergy between them. 
-
-4th of August:
-- We deployed some of the services in AWS to see if we would run into errors.
-
-6th of August:
-- We made a definitive version of the template we created earlier in the week, and put the AWS services in we thought would perform best with each other.
         
          
 # References:
