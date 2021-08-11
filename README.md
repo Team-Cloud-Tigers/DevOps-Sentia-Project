@@ -28,7 +28,7 @@ This includes the following AWS Services or components:
 
  * VPC: To built the cloud environment
  
- * Public Subnets: the public subnet is subnet that's associated with a route table that has a route to an internet gateway. An internet gateway. This connects the VPC to the internet and to other AWS services.
+ * Public Subnets: the public subnet is a subnet that's associated with a route table that has a route to an internet gateway. This connects the VPC to the internet and to other AWS services.
 
  
  * Private Subnet
