@@ -70,8 +70,16 @@ Topics to consider:
 - Cost optimization should be applied when necessary, even if a few application related modifications are necessary. Environment isolation is important, but some shared services would be acceptable if they result in major cost reduction.
 
 
+Company policies:
+- Teams must work using the scrum methodology, including all the rituals and meetings.
+- For new teams, one developer is chosen as scrum master. This is a double role, so they are developer and scrum master at the same time. They remain scrum master for the entire duration of the project. A scrum master gets a 50% pay raise (for a total of €0 x 150% = €0).
+- Your Learning Coach is the product owner. 
+- Resources must be tagged properly with the following tags; Project(key),devops (value) and TEAM( key),<your team name here>( value). 
+Resources that are not properly tagged might randomly get deleted. The Cloud Team is not responsible for any lost data when you do not comply with these rules.
 
 Approach:
+ 
+Team worked together on assigment 
 
 # Activity log 
 
@@ -94,9 +102,7 @@ Activities:
 
 6th of August:
 - We made a definitive version of the template we created earlier in the week, and put the AWS services in we thought would perform best with each other.
- 
- 
-         
+        
          
 # References:
 
