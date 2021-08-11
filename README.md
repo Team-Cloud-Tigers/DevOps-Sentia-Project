@@ -60,12 +60,18 @@ An SSH File Transfer Protocol (SFTP) server is an endpoint that is associated wi
   
  
  
+ 
+ 
  Client is currently hosting the following services on several virtual machines :
  
  * a customer facing web application on their on-premise environment based on a NodeJS application behind an NGINX reverse proxy.
  * the customer uses a MongoDB cluster for storing data as well as an FTP server for document storage. 
  * the customer maintains a cron server, mostly Bash and Python scripts, relevant to a small amount of jobs that need to be executed a few times per day (no more than once per hour).
  * the customer has 3 environments, namely Test, Acceptance and Production.
+
+
+
+
 
     
       
