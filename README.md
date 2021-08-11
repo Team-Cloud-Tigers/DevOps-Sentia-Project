@@ -38,9 +38,9 @@ This includes the following AWS Services or components:
  
  * EC2 VPN client: A VPN client is a software based technology that establishes a secure connection between the user and a VPN server.
  
- * 2 DynamoDB: 
+ * 2 DynamoDB: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
  
- * Elastic Loadbalancer:
+ * Elastic Loadbalancer: Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, Lambda functions, and virtual appliances.
  
  * CloudWatch:
   
