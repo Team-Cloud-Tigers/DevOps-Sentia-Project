@@ -32,7 +32,7 @@ Infrastructure and environments:
   
  - This includes the following AWS Services:
  
- 
+ __________________________________________________________________________________________
  
  Client is currently hosting the following services on several virtual machines :
  
@@ -41,7 +41,7 @@ Infrastructure and environments:
  * the customer maintains a cron server, mostly Bash and Python scripts, relevant to a small amount of jobs that need to be executed a few times per day (no more than once per hour).
  * the customer has 3 environments, namely Test, Acceptance and Production.
 
-      
+ __________________________________________________________________________________________     
       
 Goals:
 
@@ -50,7 +50,7 @@ The solution needs to be:
 - (must) utilize managed services as much as possible.
 - (nice to have) modernized during this migration in terms of infrastructure technologies used.
 
-
+__________________________________________________________________________________________
 
 Topics to consider:
   
@@ -62,6 +62,7 @@ Topics to consider:
 
 Approach:
 
+__________________________________________________________________________________________
 # Activity log 
 
 Activities:
