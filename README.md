@@ -27,8 +27,8 @@ Infrastructure and environments:
  
  To meet the client requirements we choose the following AWS infrastructure:
  
- An architecture design based on a infrastrustructure as a code solution created by AWS CloudFormation.
- 
+ An architecture design based on a infrastrustructure as a code solution created by AWS CloudFormation using YAML.
+  
  This includes the following AWS Services:
  
  
