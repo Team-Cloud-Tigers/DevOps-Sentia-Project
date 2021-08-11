@@ -100,6 +100,8 @@ Approach:
  
 Team worked together on research,testing and reviewing the project on a daily basis.
 
+Assumptions and discussions were handled and made in a respectful and relaxed environment within the team.
+
         
          
 # References:
