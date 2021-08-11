@@ -34,7 +34,7 @@ This includes the following AWS Services or components:
  
  * Internet Gateway: An internet gateway serves two purposes: to provide a target in your VPC route tables for internet-routable traffic, and to perform network address translation (NAT) for instances that have been assigned public IPv4 addresses.
  
- * 2 EC2
+ * 2 EC2: An Amazon EC2 instance is a virtual server in Amazon's Elastic Compute Cloud (EC2) for running applications on the Amazon Web Services (AWS) infrastructure.
  
  * EC2 client : connection to the dashboard for the 
  
