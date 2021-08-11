@@ -21,7 +21,7 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 References:
  
-    Websites
+https://aws.amazon.com/cloudformation/
 
 Infrastructure and environments:
  
