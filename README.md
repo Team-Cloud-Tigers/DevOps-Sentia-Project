@@ -19,26 +19,6 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 # Topics
 
-References:
-
-https://acloudguru.com/blog/business/what-is-cloud-migration
-
-https://www.slideteam.net/powerpoint/Cloud-Migration
-
-https://www.youtube.com/watch?v=crNyDkR3ulU
-
-https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html
-
-https://cdgibson.medium.com/difference-between-aws-dynamodb-vs-aws-documentdb-vs-mongodb-9cb026a94767
-
-https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-dynamodb-tutorial.html?p=gsrc&c=ho_dnwa
-
-https://medium.com/element7-io/aws-transfer-for-sftp-setup-using-cloudformation-d40388c4b279
-
-https://aws.amazon.com/architecture/icons/
- 
-https://aws.amazon.com/cloudformation/
-____________________________________________________________________________________________________
 
 
 Infrastructure and environments:
@@ -103,6 +83,16 @@ Activities:
  
  
          
+         
+References:
 
+https://acloudguru.com/blog/business/what-is-cloud-migration
+
+https://www.slideteam.net/powerpoint/Cloud-Migration
+
+https://aws.amazon.com/architecture/icons/
+ 
+https://aws.amazon.com/cloudformation/
+____________________________________________________________________________________________________
 
 
