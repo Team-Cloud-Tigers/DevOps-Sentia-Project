@@ -30,8 +30,8 @@ This includes the following AWS Services or components:
  
  * Public Subnets: the public subnet is a subnet that's associated with a route table that has a route to an internet gateway. This connects the VPC to the internet and to other AWS services.
 
- 
- * Private Subnet
+ * Private Subnet: Instances in the private subnet are back-end servers that don't need to accept incoming traffic from the internet and therefore do not have public IP addresses.
+
  
  * Internet Gateway 
  
