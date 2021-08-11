@@ -22,14 +22,15 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 References:
  
 https://aws.amazon.com/cloudformation/
+__________________________________________________________________________________________
 
 Infrastructure and environments:
  
- To meet the client requirements we choose the following AWS infrastructure:
+- To meet the client requirements we choose the following AWS infrastructure:
  
- An architecture design based on an infrastructure as a code solution created by AWS CloudFormation using YAML.
+- An architecture design based on an infrastructure as a code solution created by AWS CloudFormation using YAML.
   
- This includes the following AWS Services:
+ - This includes the following AWS Services:
  
  
  Client is currently hosting the following services on several virtual machines :
@@ -63,6 +64,20 @@ Activities:
  * Week 2 : 20 hours research and 20 hours testing templates in CloudFormation
  * Week 3 : 10 hours testing final template in Cloudformation and 25 hours GitHub documentation
 
+26th of July:
+- The project details were made clear and our team started with doing research. Our first week mostly consisted of research and experimenting.
+
+2nd of August:
+- We made a draft of the services we wanted to use for the infrastructure and put them in a template.
+
+3rd of August:
+- We experimented more with the services and researched the synergy between them. 
+
+4th of August:
+- We tried deploying some of the services in AWS to see if we would run into errors.
+
+6th of August:
+- We made a definitive version of the template we created earlier in the week, and put the AWS services in we thought would perform best with each other.
  
  
          
