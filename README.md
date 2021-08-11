@@ -23,11 +23,13 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 Infrastructure and environments:
  
-- To meet the client requirements we chose the following AWS infrastructure:
+To meet the client requirements we chose the following AWS infrastructure:
  
-- An architecture design based on an infrastructure as a code solution created by AWS CloudFormation using YAML.
+An architecture design based on an infrastructure as a code solution created by AWS CloudFormation using YAML.
   
-- This includes the following AWS Services:
+This includes the following AWS Services:
+    
+    
  
 
  
