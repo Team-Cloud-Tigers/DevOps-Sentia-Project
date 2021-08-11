@@ -9,7 +9,7 @@ In this Repository we will upload the deliverables needed for the Sentia cloud m
 - A simple time log of the activities we have performed.
 - A document of assumptions and decisions we have made.
 
-You can find the scenario of the assignment in the link:
+You can find the scenario of the assignment in the following link:
 
 https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.md
 
