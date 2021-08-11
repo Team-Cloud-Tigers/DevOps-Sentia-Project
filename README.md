@@ -26,7 +26,7 @@ An architecture design based on an infrastructure as a code solution created by 
    
 This includes the following AWS Services or components:
  
- * CloudFormation: CloudFormation was chosen after testing Cloud Development Kit the customers'choice. This because of the current knowledge about how to use CDK. 
+ * CloudFormation: CloudFormation was chosen after testing Cloud Development Kit the customers' choice. This is because of the current knowledge about how to use CDK. 
 AWS CloudFormation is a service that gives developers and businesses an easy way to create a collection of related AWS and third-party resources, and provision and manage them in an orderly and predictable fashion.
 
  * VPC: Virtual Private Cloud is a service that lets you launch AWS resources in a logically isolated virtual network that you define.
@@ -100,7 +100,7 @@ Approach:
  
 Team worked together on assignment 
 
-## Activity log 
+# Activity log 
 
 Activities:
  * Week 1 : 35 hours research
@@ -123,7 +123,7 @@ Activities:
 - We made a definitive version of the template we created earlier in the week, and put the AWS services in we thought would perform best with each other.
         
          
-## References:
+# References:
 
 https://acloudguru.com/blog/business/what-is-cloud-migration
 
