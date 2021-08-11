@@ -27,6 +27,8 @@ To meet the client requirements the following AWS Infrastructure was made:
 
     
 This includes the following AWS Services or components:
+ 
+ * CloudFormation: The team deciced after testing AWS CDK the customers to use CloudFormation instead. This because of the current knowledge about how to use CDK.
 
  * VPC: To built the cloud environment
  
