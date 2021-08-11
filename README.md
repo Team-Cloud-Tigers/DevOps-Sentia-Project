@@ -49,7 +49,7 @@ This includes the following AWS Services or components:
  * QuickSight Dashboard: Amazon QuickSight connects to your data in the cloud and combines data from many different sources. In a single data dashboard, QuickSight can include AWS data, third-party data, big data, spreadsheet data, SaaS data, B2B data, and more
  
  * SFTP Server: For the customers to login to access their documents
-An SSH File Transfer Protocol (SFTP) server is an endpoint that is associated with a receiver or a destination during a message exchange. ... An SFTP server uses the SFTP transport protocol, which is an extension of the Secure Shell (SSH) cryptographic protocol.
+An SSH File Transfer Protocol (SFTP) server is an endpoint that is associated with a receiver or a destination during a message exchange. An SFTP server uses the SFTP transport protocol, which is an extension of the Secure Shell (SSH) cryptographic protocol.
 
  
  
