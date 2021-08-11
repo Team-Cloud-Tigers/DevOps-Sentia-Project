@@ -45,7 +45,7 @@ AWS CloudFormation is a service that gives developers and businesses an easy way
  
  * 2 DynamoDB: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
  
- * Elastic Loadbalancer: Instead of NGINX reverse proxy to deploy a NodeJS application we used an Elastic Load Balancer on EC2 instances. Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, Lambda functions, and virtual appliances.
+ * Elastic Loadbalancer: Instead of a NGINX reverse proxy to deploy a NodeJS application an Elastic Load Balancer on EC2 instances was used. Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, Lambda functions, and virtual appliances.
  
  * CloudWatch: CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, and visualizes it using automated dashboards so you can get a unified view of your AWS resources, applications, and services that run in AWS and on-premises.
   
