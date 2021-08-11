@@ -24,7 +24,7 @@ To meet the customers' requirements the following AWS Infrastructure was made:
  
 An architecture design based on an infrastructure as a code solution created by AWS CloudFormation using YAML.
    
-## This includes the following AWS Services or components:
+### This includes the following AWS Services or components:
  
  * CloudFormation: CloudFormation was chosen after testing Cloud Development Kit the customers'choice. This because of the current knowledge about how to use CDK. 
 AWS CloudFormation is a service that gives developers and businesses an easy way to create a collection of related AWS and third-party resources, and provision and manage them in an orderly and predictable fashion.
