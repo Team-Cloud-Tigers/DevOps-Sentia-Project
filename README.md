@@ -100,7 +100,7 @@ Approach:
  
 Team worked together on assignment 
 
-# Activity log 
+### Activity log 
 
 Activities:
  * Week 1 : 35 hours research
@@ -123,7 +123,7 @@ Activities:
 - We made a definitive version of the template we created earlier in the week, and put the AWS services in we thought would perform best with each other.
         
          
-# References:
+### References:
 
 https://acloudguru.com/blog/business/what-is-cloud-migration
 
