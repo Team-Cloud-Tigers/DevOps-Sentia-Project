@@ -36,13 +36,13 @@ This includes the following AWS Services or components:
  
  * 2 EC2: An Amazon EC2 instance is a virtual server in Amazon's Elastic Compute Cloud (EC2) for running applications on the Amazon Web Services (AWS) infrastructure.
  
- * EC2 client : connection to the dashboard for the 
+ * EC2 VPN client: A VPN client is a software based technology that establishes a secure connection between the user and a VPN server.
  
- * 2 DynamoDB Table
+ * 2 DynamoDB: 
  
- * Elastic Loadbalancer
+ * Elastic Loadbalancer:
  
- * CloudWatch Alarm
+ * CloudWatch:
   
  * QuickSight Dashboard
  
