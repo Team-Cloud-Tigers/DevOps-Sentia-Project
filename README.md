@@ -28,10 +28,10 @@ To meet the client requirements the following AWS Infrastructure was made:
     
 This includes the following AWS Services or components:
  
- * CloudFormation: CloudFormation was chosen after testing AWS Cloud Development Kit the customers'choice. This because of the current knowledge about how to use AWS CDK. 
-AWS CloudFormation is a service that gives developers and businesses an easy way to create a collection of related AWS and third-party resources, and provision and manage them in an orderly and predictable fashion
+ * CloudFormation: CloudFormation was chosen after testing Cloud Development Kit the customers'choice. This because of the current knowledge about how to use CDK. 
+AWS CloudFormation is a service that gives developers and businesses an easy way to create a collection of related AWS and third-party resources, and provision and manage them in an orderly and predictable fashion.
 
- * VPC: To built the cloud environment
+ * VPC: Virtual Private Cloud is a service that lets you launch AWS resources in a logically isolated virtual network that you define.
  
  * Public Subnets: The public subnet is a subnet that's associated with a route table that has a route to an internet gateway. This connects the VPC to the internet and to other AWS services.
 
@@ -45,13 +45,13 @@ AWS CloudFormation is a service that gives developers and businesses an easy way
  
  * 2 DynamoDB: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
  
- * Elastic Loadbalancer: Instead of a NGINX reverse proxy to deploy a NodeJS application an Elastic Load Balancer on EC2 instances was used. Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, Lambda functions, and virtual appliances.
+ * Elastic Loadbalancer: Instead of a NGINX reverse proxy to deploy a NodeJS application an Elastic Load Balancer on EC2 instances was chosen. Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, Lambda functions, and virtual appliances.
  
  * CloudWatch: CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, and visualizes it using automated dashboards so you can get a unified view of your AWS resources, applications, and services that run in AWS and on-premises.
   
  * QuickSight Dashboard: The customer needs to have access via a publically accessibly dashboard within their headquarters. Amazon QuickSight connects to your data in the cloud and combines data from many different sources. In a single data dashboard, QuickSight can include AWS data, third-party data, big data, spreadsheet data, SaaS data, B2B data, and more. 
  
- * SFTP Server: For the customers to login to access their documents
+ * SFTP Server: For the customers to login to access their documents.
 An SSH File Transfer Protocol (SFTP) server is an endpoint that is associated with a receiver or a destination during a message exchange. An SFTP server uses the SFTP transport protocol, which is an extension of the Secure Shell (SSH) cryptographic protocol.
 
  
