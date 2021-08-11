@@ -17,21 +17,20 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 ![template1-designer (3)](https://github.com/Team-Cloud-Tigers/DevOps-Sentia-Project/blob/70859aa28b3b0b10c407dc74f48201f5496d9c25/Diagram/FinalTmpltPRODUCTION.png)
 
-# Topics
-
-
-
-Infrastructure and environments:
+# General nfrastructure
  
 To meet the client requirements we chose the following AWS infrastructure:
  
 An architecture design based on an infrastructure as a code solution created by AWS CloudFormation using YAML.
   
-This includes the following AWS Services:
+This includes the following AWS Services or components:
+
+ * VPC 
+ 
+ * Public Subnets 
     
     
  
-
  
  Client is currently hosting the following services on several virtual machines :
  
@@ -86,7 +85,7 @@ Activities:
  
          
          
-References:
+# References:
 
 https://acloudguru.com/blog/business/what-is-cloud-migration
 
