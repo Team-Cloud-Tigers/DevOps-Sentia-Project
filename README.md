@@ -17,6 +17,7 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 ![template1-designer (3)](https://github.com/Team-Cloud-Tigers/DevOps-Sentia-Project/blob/70859aa28b3b0b10c407dc74f48201f5496d9c25/Diagram/FinalTmpltPRODUCTION.png)
 
+
 # Infrastructure
  
  
@@ -24,8 +25,7 @@ To meet the client requirements the following AWS Infrastructure was made:
  
 * An architecture design based on an infrastructure as a code solution created by AWS CloudFormation using YAML.
 
-  
-  
+    
 This includes the following AWS Services or components:
 
  * VPC: To built the cloud environment
