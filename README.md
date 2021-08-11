@@ -28,12 +28,11 @@ This includes the following AWS Services or components:
 
  * VPC: To built the cloud environment
  
- * Public Subnets: the public subnet is a subnet that's associated with a route table that has a route to an internet gateway. This connects the VPC to the internet and to other AWS services.
+ * Public Subnets: The public subnet is a subnet that's associated with a route table that has a route to an internet gateway. This connects the VPC to the internet and to other AWS services.
 
  * Private Subnet: Instances in the private subnet are back-end servers that don't need to accept incoming traffic from the internet and therefore do not have public IP addresses.
-
  
- * Internet Gateway 
+ * Internet Gateway: An internet gateway serves two purposes: to provide a target in your VPC route tables for internet-routable traffic, and to perform network address translation (NAT) for instances that have been assigned public IPv4 addresses.
  
  * 2 EC2
  
