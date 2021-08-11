@@ -33,6 +33,7 @@ Infrastructure and environments:
  - This includes the following AWS Services:
  
  
+ 
  Client is currently hosting the following services on several virtual machines :
  
  * a customer facing web application on their on-premise environment based on a NodeJS application behind an NGINX reverse proxy.
@@ -40,6 +41,7 @@ Infrastructure and environments:
  * the customer maintains a cron server, mostly Bash and Python scripts, relevant to a small amount of jobs that need to be executed a few times per day (no more than once per hour).
  * the customer has 3 environments, namely Test, Acceptance and Production.
 
+      
       
 Goals:
 
@@ -49,11 +51,14 @@ The solution needs to be:
 - (nice to have) modernized during this migration in terms of infrastructure technologies used.
 
 
+
 Topics to consider:
   
 - The Learning Coach is making one change to the above assignment: to use a DynamoDB table instead of an ElasticSearch cluster.
 - For AWS, write your IaC using: AWS CDK (preferred), or alternatively with AWS CloudFormation.
 - Cost optimization should be applied when necessary, even if a few application related modifications are necessary. Environment isolation is important, but some shared services would be acceptable if they result in major cost reduction.
+
+
 
 Approach:
 
