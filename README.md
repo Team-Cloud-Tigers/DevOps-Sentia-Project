@@ -30,17 +30,23 @@ This includes the following AWS Services or components:
  
  * Public Subnets 
  
- * Private Subnets
+ * Private Subnet
  
- * NAT Gateway 
+ * Internet Gateway 
  
- * ECS
+ * 2 EC2
  
- * Loadbalancer
+ * 2 DynamoDB database
  
- * Dashboard
+ * Elastic Loadbalancer
  
- * Table 
+ * CloudWatch Alarm
+  
+ * QuickSight Dashboard
+ 
+ * SFTP Server
+ 
+ 
  
   
  
