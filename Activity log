@@ -14,7 +14,7 @@ ________________________________________________________________________________
 - We experimented more with the services and researched the synergy between them. 
 
 4th of August:
-- We tried deploying some of the services in AWS to see if we would run into errors.
+- We deployed some of the services in AWS to see if we would run into errors.
 
 6th of August:
 - We made a definitive version of the template we created earlier in the week, and put the AWS services in we thought would perform best with each other.
