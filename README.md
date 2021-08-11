@@ -26,9 +26,10 @@ To meet the client requirements the following AWS Infrastructure was made:
   
 This includes the following AWS Services or components:
 
- * VPC 
+ * VPC: To built the cloud environment
  
- * Public Subnets 
+ * Public Subnets: the public subnet is subnet that's associated with a route table that has a route to an internet gateway. An internet gateway. This connects the VPC to the internet and to other AWS services.
+
  
  * Private Subnet
  
@@ -36,7 +37,9 @@ This includes the following AWS Services or components:
  
  * 2 EC2
  
- * 2 DynamoDB database
+ * EC2 client : connection to the dashboard for the 
+ 
+ * 2 DynamoDB Table
  
  * Elastic Loadbalancer
  
@@ -44,7 +47,7 @@ This includes the following AWS Services or components:
   
  * QuickSight Dashboard
  
- * SFTP Server
+ * SFTP Server: For the customers to login to access their documents
  
  
  
