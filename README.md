@@ -74,7 +74,7 @@ Company policies:
 - Teams must work using the scrum methodology, including all the rituals and meetings.
 - For new teams, one developer is chosen as scrum master. This is a double role, so they are developer and scrum master at the same time. They remain scrum master for the entire duration of the project. A scrum master gets a 50% pay raise (for a total of €0 x 150% = €0).
 - Your Learning Coach is the product owner. 
-- Resources must be tagged properly with the following tags; Project(key),devops (value) and TEAM( key),<your team name here>( value). 
+- Resources must be tagged properly with the following tags(keys ,value); Project(k), devops(v) and TEAM(k), your team name here(v). 
 Resources that are not properly tagged might randomly get deleted. The Cloud Team is not responsible for any lost data when you do not comply with these rules.
 
 Approach:
