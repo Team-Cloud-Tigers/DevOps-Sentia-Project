@@ -25,7 +25,12 @@ References:
 
 Infrastructure and environments:
  
- To meet the client requirements we choose the following infrastructure:
+ To meet the client requirements we choose the following AWS infrastructure:
+ 
+ An architecture design based on a infrastrustructure as a code solution created by AWS CloudFormation.
+ 
+ This includes the following AWS Services:
+ 
  
  Client is currently hosting the following services on several virtual machines :
  
