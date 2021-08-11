@@ -79,7 +79,7 @@ Resources that are not properly tagged might randomly get deleted. The Cloud Tea
 
 Approach:
  
-Team worked together on assigment 
+Team worked together on assignment 
 
 # Activity log 
 
