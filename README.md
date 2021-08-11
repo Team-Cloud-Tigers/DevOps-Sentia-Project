@@ -20,19 +20,35 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 # Topics
 
 References:
+
+https://acloudguru.com/blog/business/what-is-cloud-migration
+
+https://www.slideteam.net/powerpoint/Cloud-Migration
+
+https://www.youtube.com/watch?v=crNyDkR3ulU
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html
+
+https://cdgibson.medium.com/difference-between-aws-dynamodb-vs-aws-documentdb-vs-mongodb-9cb026a94767
+
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-dynamodb-tutorial.html?p=gsrc&c=ho_dnwa
+
+https://medium.com/element7-io/aws-transfer-for-sftp-setup-using-cloudformation-d40388c4b279
+
+https://aws.amazon.com/architecture/icons/
  
 https://aws.amazon.com/cloudformation/
-__________________________________________________________________________________________
+
 
 Infrastructure and environments:
  
-- To meet the client requirements we choose the following AWS infrastructure:
+- To meet the client requirements we chose the following AWS infrastructure:
  
- * An architecture design based on an infrastructure as a code solution created by AWS CloudFormation using YAML.
+- An architecture design based on an infrastructure as a code solution created by AWS CloudFormation using YAML.
   
- - This includes the following AWS Services:
+- This includes the following AWS Services:
  
- __________________________________________________________________________________________
+
  
  Client is currently hosting the following services on several virtual machines :
  
@@ -41,7 +57,7 @@ Infrastructure and environments:
  * the customer maintains a cron server, mostly Bash and Python scripts, relevant to a small amount of jobs that need to be executed a few times per day (no more than once per hour).
  * the customer has 3 environments, namely Test, Acceptance and Production.
 
- __________________________________________________________________________________________     
+    
       
 Goals:
 
@@ -50,7 +66,7 @@ The solution needs to be:
 - (must) utilize managed services as much as possible.
 - (nice to have) modernized during this migration in terms of infrastructure technologies used.
 
-__________________________________________________________________________________________
+
 
 Topics to consider:
   
@@ -62,7 +78,6 @@ Topics to consider:
 
 Approach:
 
-__________________________________________________________________________________________
 # Activity log 
 
 Activities:
