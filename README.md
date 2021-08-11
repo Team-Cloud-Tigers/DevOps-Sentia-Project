@@ -46,7 +46,7 @@ This includes the following AWS Services or components:
  
  * CloudWatch: CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, and visualizes it using automated dashboards so you can get a unified view of your AWS resources, applications, and services that run in AWS and on-premises.
   
- * QuickSight Dashboard: Amazon QuickSight connects to your data in the cloud and combines data from many different sources. In a single data dashboard, QuickSight can include AWS data, third-party data, big data, spreadsheet data, SaaS data, B2B data, and more
+ * QuickSight Dashboard: The customer needs to have access via a publically accessibly dashboard within their headquarters. Amazon QuickSight connects to your data in the cloud and combines data from many different sources. In a single data dashboard, QuickSight can include AWS data, third-party data, big data, spreadsheet data, SaaS data, B2B data, and more. 
  
  * SFTP Server: For the customers to login to access their documents
 An SSH File Transfer Protocol (SFTP) server is an endpoint that is associated with a receiver or a destination during a message exchange. An SFTP server uses the SFTP transport protocol, which is an extension of the Secure Shell (SSH) cryptographic protocol.
