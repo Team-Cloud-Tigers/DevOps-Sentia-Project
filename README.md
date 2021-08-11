@@ -98,8 +98,7 @@ Resources that are not properly tagged might randomly get deleted. The Cloud Tea
 
 Approach:
  
-Team worked together on assignment 
-Assumptions and decisions were discussed and reviewed on a daily basis.
+Team worked together on research,testing and reviewing the project on a daily basis.
 
         
          
