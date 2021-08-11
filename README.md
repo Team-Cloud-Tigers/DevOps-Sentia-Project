@@ -29,8 +29,20 @@ This includes the following AWS Services or components:
  * VPC 
  
  * Public Subnets 
-    
-    
+ 
+ * Private Subnets
+ 
+ * NAT Gateway 
+ 
+ * ECS
+ 
+ * Loadbalancer
+ 
+ * Dashboard
+ 
+ * Table 
+ 
+  
  
  
  Client is currently hosting the following services on several virtual machines :
