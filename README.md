@@ -38,6 +38,7 @@ https://medium.com/element7-io/aws-transfer-for-sftp-setup-using-cloudformation-
 https://aws.amazon.com/architecture/icons/
  
 https://aws.amazon.com/cloudformation/
+____________________________________________________________________________________________________
 
 
 Infrastructure and environments:
