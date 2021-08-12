@@ -1,15 +1,15 @@
-![template1-designer (6)](https://github.com/Team-Cloud-Tigers/DevOps-Sentia-Project/blob/7f50956cc27107e253c6580436472e897a41291e/Diagrams/Test.png)
+![template1-designer (6)](https://github.com/Team-Cloud-Tigers/DevOps-Sentia-Project/blob/27a925fca641d946180ff68f727bf2a473a972d7/Diagrams/FINALtemplate%20test%201.png)
 
 
 
 
 
 
-![template1-designer (3)](https://github.com/Team-Cloud-Tigers/DevOps-Sentia-Project/blob/7f50956cc27107e253c6580436472e897a41291e/Diagrams/Acceptance.png)
+![template1-designer (3)](https://github.com/Team-Cloud-Tigers/DevOps-Sentia-Project/blob/27a925fca641d946180ff68f727bf2a473a972d7/Diagrams/FINALtemplate%20acceptance.png)
 
 
 
 
 
 
-![template1-designer (3)](https://github.com/Team-Cloud-Tigers/DevOps-Sentia-Project/blob/7f50956cc27107e253c6580436472e897a41291e/Diagrams/Production.png)
+![template1-designer (3)](https://github.com/Team-Cloud-Tigers/DevOps-Sentia-Project/blob/27a925fca641d946180ff68f727bf2a473a972d7/Diagrams/FINALtemplate%20production.png)
