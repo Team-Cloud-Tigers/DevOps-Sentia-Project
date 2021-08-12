@@ -15,7 +15,7 @@ https://github.com/sentialabs/public-cloud-recruitment/blob/master/ASSIGNEMENT.m
 
 # Architecture Overview
 
-![image](https://user-images.githubusercontent.com/84905032/129167183-0778f2b4-a4a5-462b-a59b-6b534acb56ad.png)
+![image](https://user-images.githubusercontent.com/84905032/129204815-92e61b59-f806-4381-b123-106a5a9c8306.png)
 
 
 # Infrastructure
