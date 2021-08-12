@@ -86,18 +86,11 @@ Resources:
     Metadata:
       'AWS::CloudFormation::Designer':
         id: 860ff2e3-b153-4274-b948-f1a66b080bd8
-  InternetGatewayAttachment:
-    Type: 'AWS::EC2::VPCGatewayAttachment'
-    Properties:
-      InternetGatewayId: !Ref InternetGateway
-      VpcId: !Ref VPC
-    Metadata:
-      'AWS::CloudFormation::Designer':
-        id: 80aa31fe-b6e4-44b8-8a63-3140ad532555
+    DependsOn:
+      - ELBLB2PRQL
   PublicSubnet1:
     Type: 'AWS::EC2::Subnet'
     Properties:
-      VpcId: !Ref VPC
       AvailabilityZone: !Select 
         - 0
         - !GetAZs ''
@@ -167,8 +160,8 @@ Resources:
     Type: 'AWS::ElasticLoadBalancing::LoadBalancer'
     Properties:
       Subnets:
-        - !Ref PublicSubnet1
         - !Ref PublicSubnet2
+        - !Ref PublicSubnet1
     Metadata:
       'AWS::CloudFormation::Designer':
         id: 1856b373-1501-4506-9469-f2cdeafe6c10
@@ -205,6 +198,12 @@ Resources:
         id: 1daa84ce-c095-4bbe-8359-f00f2014859f
     DependsOn:
       - PrivateSubnet1
+  EBA3OT9M:
+    Type: 'AWS::ElasticBeanstalk::Application'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: cdb8a5a9-d14a-4eef-96f0-627e7954c752
 Outputs:
   VPC:
     Description: A reference to the created VPC
@@ -243,24 +242,25 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 510
-        'y': 970
+        x: 300
+        'y': -170
       z: 1
       embeds: []
+      dependson:
+        - 1856b373-1501-4506-9469-f2cdeafe6c10
     71685841-b169-4e31-9ae2-a232e21e2926:
       size:
         width: 960
         height: 830
       position:
-        x: 60
-        'y': 90
+        x: -80
+        'y': -30
       z: 1
       embeds:
+        - cdb8a5a9-d14a-4eef-96f0-627e7954c752
         - 67b31e6a-3428-42b8-9016-8dbe27c94926
         - 1daa84ce-c095-4bbe-8359-f00f2014859f
         - 7c0d988d-a0f5-4c3d-9b15-178779245ac6
-        - b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
-        - 979df520-4c92-451a-acea-1e55f75d1618
         - 3a99c74e-6fa0-430f-bcbd-a4b01360e60d
         - 2cfd2f99-5782-471d-8ca5-3f086d52590f
         - 1856b373-1501-4506-9469-f2cdeafe6c10
@@ -270,7 +270,7 @@ Metadata:
         width: 150
         height: 150
       position:
-        x: 690
+        x: 640
         'y': 450
       z: 2
       parent: 71685841-b169-4e31-9ae2-a232e21e2926
@@ -279,18 +279,23 @@ Metadata:
       iscontainedinside:
         - 71685841-b169-4e31-9ae2-a232e21e2926
         - 71685841-b169-4e31-9ae2-a232e21e2926
+        - 71685841-b169-4e31-9ae2-a232e21e2926
+        - 71685841-b169-4e31-9ae2-a232e21e2926
+        - 71685841-b169-4e31-9ae2-a232e21e2926
+        - 71685841-b169-4e31-9ae2-a232e21e2926
     b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f:
       size:
         width: 240
         height: 240
       position:
-        x: 390
-        'y': 150
-      z: 2
-      parent: 71685841-b169-4e31-9ae2-a232e21e2926
+        x: 50
+        'y': 170
+      z: 3
+      parent: cdb8a5a9-d14a-4eef-96f0-627e7954c752
       embeds:
         - 18032662-be1c-4be8-953d-9a9cb8720445
       iscontainedinside:
+        - 71685841-b169-4e31-9ae2-a232e21e2926
         - 71685841-b169-4e31-9ae2-a232e21e2926
         - 71685841-b169-4e31-9ae2-a232e21e2926
     979df520-4c92-451a-acea-1e55f75d1618:
@@ -298,32 +303,27 @@ Metadata:
         width: 240
         height: 240
       position:
-        x: 90
-        'y': 150
-      z: 2
-      parent: 71685841-b169-4e31-9ae2-a232e21e2926
+        x: 370
+        'y': 170
+      z: 3
+      parent: cdb8a5a9-d14a-4eef-96f0-627e7954c752
       embeds:
         - c3dd6726-0d34-4193-ad27-980dfd886eb4
-      iscontainedinside:
-        - 71685841-b169-4e31-9ae2-a232e21e2926
-        - 71685841-b169-4e31-9ae2-a232e21e2926
-    80aa31fe-b6e4-44b8-8a63-3140ad532555:
-      source:
-        id: 71685841-b169-4e31-9ae2-a232e21e2926
-      target:
-        id: 860ff2e3-b153-4274-b948-f1a66b080bd8
-      z: 1
     18032662-be1c-4be8-953d-9a9cb8720445:
       size:
         width: 60
         height: 60
       position:
-        x: 420
-        'y': 180
-      z: 3
+        x: 80
+        'y': 200
+      z: 4
       parent: b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
       embeds: []
       iscontainedinside:
+        - b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
+        - b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
+        - b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
+        - b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
         - b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
         - b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
     c3dd6726-0d34-4193-ad27-980dfd886eb4:
@@ -331,12 +331,16 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 120
-        'y': 180
-      z: 3
+        x: 400
+        'y': 200
+      z: 4
       parent: 979df520-4c92-451a-acea-1e55f75d1618
       embeds: []
       iscontainedinside:
+        - 979df520-4c92-451a-acea-1e55f75d1618
+        - 979df520-4c92-451a-acea-1e55f75d1618
+        - 979df520-4c92-451a-acea-1e55f75d1618
+        - 979df520-4c92-451a-acea-1e55f75d1618
         - 979df520-4c92-451a-acea-1e55f75d1618
         - 979df520-4c92-451a-acea-1e55f75d1618
     7c0d988d-a0f5-4c3d-9b15-178779245ac6:
@@ -344,8 +348,8 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 570
-        'y': 630
+        x: 520
+        'y': 720
       z: 2
       parent: 71685841-b169-4e31-9ae2-a232e21e2926
       embeds: []
@@ -356,21 +360,21 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 330
-        'y': 450
+        x: 300
+        'y': -20
       z: 2
       parent: 71685841-b169-4e31-9ae2-a232e21e2926
       embeds: []
       iscontainedinside:
-        - 979df520-4c92-451a-acea-1e55f75d1618
         - b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
+        - 979df520-4c92-451a-acea-1e55f75d1618
     2cfd2f99-5782-471d-8ca5-3f086d52590f:
       size:
         width: 60
         height: 60
       position:
-        x: 330
-        'y': 570
+        x: 300
+        'y': 630
       z: 2
       parent: 71685841-b169-4e31-9ae2-a232e21e2926
       embeds: []
@@ -383,7 +387,7 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 750
+        x: 700
         'y': 120
       z: 2
       parent: 71685841-b169-4e31-9ae2-a232e21e2926
@@ -396,7 +400,7 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 720
+        x: 670
         'y': 510
       z: 3
       parent: 67b31e6a-3428-42b8-9016-8dbe27c94926
@@ -406,7 +410,7 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 750
+        x: 700
         'y': 270
       z: 2
       parent: 71685841-b169-4e31-9ae2-a232e21e2926
@@ -418,8 +422,8 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 820
-        'y': 830
+        x: 750
+        'y': 640
       z: 2
       parent: 71685841-b169-4e31-9ae2-a232e21e2926
       embeds: []
@@ -428,15 +432,39 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 990
-        'y': 830
+        x: 970
+        'y': 640
       z: 1
       embeds: []
       dependson:
         - e7742593-5b33-4d64-9085-50910cab4dbf
-    953dae3f-852b-4e1a-8b0b-70d4cecacdde:
+    cdb8a5a9-d14a-4eef-96f0-627e7954c752:
+      size:
+        width: 600
+        height: 390
+      position:
+        x: 30
+        'y': 100
+      z: 2
+      parent: 71685841-b169-4e31-9ae2-a232e21e2926
+      embeds:
+        - b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
+        - 979df520-4c92-451a-acea-1e55f75d1618
+    ac22c454-73e7-4545-aa80-122cdb94e876:
       source:
-        id: b7896d89-a52c-4492-97b0-6db432c4d270
+        id: 860ff2e3-b153-4274-b948-f1a66b080bd8
       target:
-        id: e7742593-5b33-4d64-9085-50910cab4dbf
-      z: 11
+        id: 1856b373-1501-4506-9469-f2cdeafe6c10
+      z: 5
+    13cf34d2-8d9b-43bf-af81-500b05c3b92b:
+      source:
+        id: 1856b373-1501-4506-9469-f2cdeafe6c10
+      target:
+        id: b44ac2c8-7224-47fb-acd4-5c63a1b8eb6f
+      z: 6
+    1ac2e51a-d1f3-4eb6-bc1f-18f2172645c1:
+      source:
+        id: 1856b373-1501-4506-9469-f2cdeafe6c10
+      target:
+        id: 979df520-4c92-451a-acea-1e55f75d1618
+      z: 7
