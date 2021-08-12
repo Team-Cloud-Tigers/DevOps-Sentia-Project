@@ -41,6 +41,8 @@ AWS CloudFormation is a service that gives developers and businesses an easy way
  
  * EC2 VPN client: A VPN client is a software based technology that establishes a secure connection between the user and a VPN server.
  
+ * Elastic Beanstalk: Upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time.
+ 
  * 2 DynamoDB: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
  
  * Elastic Loadbalancer: Instead of a NGINX reverse proxy to deploy a NodeJS application an Elastic Load Balancer on EC2 instances was chosen. Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, Lambda functions, and virtual appliances.
